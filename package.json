@@ -1,0 +1,27 @@
+{
+  "name": "week-17-cl-2",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -b && node ./dist/index.js",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "typescript": "^5.8.3",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1"
+  }
+}
